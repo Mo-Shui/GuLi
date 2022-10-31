@@ -1,0 +1,20 @@
+package com.moshui.guli.product.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.moshui.common.utils.PageUtils;
+import com.moshui.guli.product.entity.AttrGroupEntity;
+
+import java.util.Map;
+
+/**
+ * 属性分组
+ *
+ * @author moshui
+ * @email 2449952049@qq.com
+ * @date 2022-10-31 10:07:37
+ */
+public interface AttrGroupService extends IService<AttrGroupEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+
